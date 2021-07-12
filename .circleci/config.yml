@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: gabrielcasado/flutter
+      - image: gabrielcasado/android-29
         auth:
           username: gabrielcasado
           password: $DOCKERHUB_PASSWORD
